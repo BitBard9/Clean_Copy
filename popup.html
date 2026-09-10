@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanCopy</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <div class="logo">🧹</div>
+      <div>
+        <h1>CleanCopy</h1>
+        <p>Clean your copied text</p>
+      </div>
+    </header>
+
+    <textarea
+      id="inputText"
+      placeholder="Paste your text here..."
+    ></textarea>
+
+    <button id="cleanButton">
+      ✨ Clean Text
+    </button>
+
+    <textarea
+      id="outputText"
+      placeholder="Cleaned text will appear here..."
+      readonly
+    ></textarea>
+
+    <button id="copyButton" class="secondary">
+      📋 Copy Clean Text
+    </button>
+
+    <p id="status"></p>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

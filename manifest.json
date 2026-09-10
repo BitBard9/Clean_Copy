@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "CleanCopy",
+  "version": "1.0.0",
+  "description": "Clean copied text by removing unnecessary spaces and formatting.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite"
+  ]
+}
